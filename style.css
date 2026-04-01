@@ -1,0 +1,121 @@
+body{
+    background-color:yellow ;
+}
+#one {
+    display: flex;
+    justify-content: center;
+    color:darkmagenta;
+}
+img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+.choose  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+}
+
+body.lb {
+    background-color: rgb(127, 217, 232);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+
+}
+footer{
+    display: flex;
+    justify-content:center;
+    
+}
+ 
+  
+
+  /* back link */
+  .back {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* category title */
+  .catname {
+    margin-top: 40px;
+    font-size: 28px;
+  }
+  
+  /* question box */
+  .question {
+    margin: 30px auto;
+    font-size: 22px;
+    width: 60%;
+    font-weight: bold;
+  }
+  
+  /* option buttons container feel */
+  .option {
+    display: block;
+    width: 50%;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+  }
+  
+ 
+  
+  
+  
+  
+  /* next button */
+  .next, .submit, .restart{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(39, 0, 139);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .option:hover{
+    background-color: hotpink;
+  }
+  
+  .next:hover, .submit:hover{
+    background-color: purple;
+  }
+  
+  /* score */
+  .score {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  /* center everything nicely */
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+   
+  
